@@ -10,7 +10,7 @@
     <img src="../images/designs/onboard2.png">
     <img src="../images/designs/onboard3.png">
   </div>
-  </div>
+</div>
 
 ## Notable Functions
 
