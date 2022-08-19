@@ -26,12 +26,15 @@ This document highlights the implementation process of the Wavvy Wallet App Spla
 ```
 
 !!! note
-    Directory with all the splash screen code : *android/app/src/main/res/drawable/launch_background.xml*
+    Directory with all the splash screen code : *[android/app/src/main/res/drawable/launch_background.xml](https://github.com/sisitech/expense_tracker/blob/15e310a5adb8cb69dd6c530ddb8986b9a5855697/android/app/src/main/res/drawable/launch_background.xml)*
 
 ## iOS
 
 - Yet to be implemented in iOS.
 
+## Take Aways
+- Adding texts to splash screens is curretly unadvised/ not supported on android. The task would be to figure out a workaround so as to achive the initial design.
+  
 ## References
 1. [Splash Screen Implementation Commit](https://github.com/sisitech/expense_tracker/commit/15e310a5adb8cb69dd6c530ddb8986b9a5855697)
 2. [Video Reference](https://www.youtube.com/watch?v=JVpFNfnuOZM&t=173s)
