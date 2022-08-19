@@ -1,0 +1,69 @@
+site_name: Wavvy Wallet Docs
+
+theme:
+  name: material
+  custom_dir: sisitech-material
+  logo: ./images/walletlogo.png
+  favicon: ./images/walletlogo.png
+  font:
+    text: Prompt
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  features:
+    - navigation.top
+    - navigation.instant
+
+plugins:
+  - search
+  # - mermaid2
+
+extra:
+  analytics:
+    provider: google
+    property: G-9EC30HBXEL
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target=_blank>feedback form</a>.
+
+extra_css:
+  - css/extra.css
+  - https://cdn.jsdelivr.net/gh/knsv/mermaid@6.0.0/dist/mermaid.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
+
+markdown_extensions:
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
