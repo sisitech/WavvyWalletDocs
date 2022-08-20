@@ -2,7 +2,6 @@ site_name: Wavvy Wallet Docs
 
 theme:
   name: material
-  custom_dir: sisitech-material
   logo: ./images/walletlogo.png
   favicon: ./images/walletlogo.png
   font:
