@@ -55,21 +55,3 @@ void main() async {
 
 [1]: https://github.com/sisitech/expense_tracker/blob/ec0b399e4c5f3406ea9d6742e27b74e55bc3f7b9/lib/app/screens/onboard.dart
 [2]: https://github.com/sisitech/expense_tracker/blob/6a60113dd7f39a2437574b924f3a9ee6970198e9/lib/main.dart
-
-<style>
-    .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-right: 8px;
-  vertical-align: middle;
-}
-</style>

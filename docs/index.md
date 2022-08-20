@@ -20,22 +20,3 @@ Wavvy Wallet is a FinTech Project aimed at tracking your daily expenses automati
    3. [Authentication](./Implementation/auth.md)
 3. [API & Database](./API/)
 4. [Research]()
-
-<style>
-    .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-right: 12px;
-  vertical-align: middle;
-  height: 350px;
-}
-</style>

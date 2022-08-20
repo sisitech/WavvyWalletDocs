@@ -4,6 +4,9 @@ This document highlights the implementation process of the Wavvy Wallet App Spla
 
 [![splashscreen](../images/designs/splash.png)]
 
+!!! note
+    Directory with all the splash screen code : *[android/app/src/main/res/drawable/launch_background.xml](https://github.com/sisitech/expense_tracker/blob/15e310a5adb8cb69dd6c530ddb8986b9a5855697/android/app/src/main/res/drawable/launch_background.xml)*
+    
 ## Android
 
 1. Generating the different mimmap assets for the ic_launcher. Using the [Wavvy Wallet Logo](../images/walletlogo.png) and an [Android Asset Generator][1]
@@ -24,10 +27,6 @@ This document highlights the implementation process of the Wavvy Wallet App Spla
 </layer-list>
 
 ```
-
-!!! note
-    Directory with all the splash screen code : *[android/app/src/main/res/drawable/launch_background.xml](https://github.com/sisitech/expense_tracker/blob/15e310a5adb8cb69dd6c530ddb8986b9a5855697/android/app/src/main/res/drawable/launch_background.xml)*
-
 ## iOS
 
 - Yet to be implemented in iOS.
